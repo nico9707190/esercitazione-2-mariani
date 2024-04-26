@@ -1,5 +1,6 @@
 .bottone{
     background-color: #240202;
+    color: white;
     padding: 14px 33px;
     text-decoration: none;
     display: block;
@@ -10,7 +11,21 @@
 
 .tbottone{
     color: #FFFFFF;
-    font-family: Merryweather;
+    font-family: Merrywheater;
     text-decoration: none;
     font-size: 35px;
+}
+
+.bottone::after{
+    content: "";
+    width: 28px;
+    height: 34px;
+    color: white;
+    display: block;
+    position: absolute;
+    top: 24px;
+    right: 9px;
+    transform: translate(-50%);
+    background-size: 28px 34px;
+    background-image: url("../images/freccia.svg");
 }

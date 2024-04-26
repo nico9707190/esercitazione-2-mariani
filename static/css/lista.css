@@ -1,0 +1,33 @@
+ul{
+    font-family: Merriweather;
+    font-size: 22px;
+    list-style: none;
+    counter-reset: listItem;
+}
+
+li::before{
+    font-size: 70px;
+    color: #707070;
+    counter-increment: listItem;
+    content: "0" counter(listItem);
+}
+
+li{
+    margin-bottom: 75px;
+}
+
+.lista{
+    padding-top: 105px;
+    padding-bottom: 105px;
+    background-color: #F5F5F5;
+}
+
+.blista{
+    color: red;
+    padding-bottom: 100px;
+}
+
+.plista{
+    color: #707070;
+    padding-bottom: 40px;
+}
