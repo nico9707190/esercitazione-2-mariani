@@ -1,0 +1,16 @@
+.bottone{
+    background-color: #240202;
+    padding: 14px 33px;
+    text-decoration: none;
+    display: block;
+    line-height: 50px;
+    position: relative;
+    font-size: 35px;
+}
+
+.tbottone{
+    color: #FFFFFF;
+    font-family: Merryweather;
+    text-decoration: none;
+    font-size: 35px;
+}

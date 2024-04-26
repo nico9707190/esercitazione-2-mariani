@@ -1,0 +1,13 @@
+.hero variant-one{
+    background-color: #CEFBFF;
+}
+
+.hero variant-two{
+    background-color: #ECCEFF;
+}
+
+.hero{
+    border: solid #707070 1px;
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
